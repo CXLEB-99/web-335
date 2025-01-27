@@ -1,2 +1,4 @@
-# web-335
-Intro to NoSQL
+# WEB 335 Introduction to NoSQL
+## Contributors
++ Professor Richard Krasso
++ Caleb Goforth
