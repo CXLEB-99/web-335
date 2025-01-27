@@ -1,0 +1,47 @@
+{
+    "VIEWERS": [
+      {
+        "_id": "v1",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      {
+        "_id": "v2",
+        "firstName": "Jane",
+        "lastName": "Smith"
+      }
+    ],
+    "MOVIES": [
+      {
+        "_id": "m1",
+        "movieName": "Inception",
+        "Genre": "Sci-Fi"
+      },
+      {
+        "_id": "m2",
+        "movieName": "The Dark Knight",
+        "Genre": "Action"
+      }
+    ],
+    "RATINGS": [
+      {
+        "_id": "r1",
+        "ratingScore": 5,
+        "viewerId": "v1",
+        "movieId": "m1"
+      },
+      {
+        "_id": "r2",
+        "ratingScore": 4,
+        "viewerId": "v2",
+        "movieId": "m1"
+      },
+      {
+        "_id": "r3",
+        "ratingScore": 5,
+        "viewerId": "v1",
+        "movieId": "m2"
+      }
+    ]
+  }
+  
