@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "_id": "u1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "devices": [
+        {
+          "_id": "d1",
+          "deviceName": "iPhone 13",
+          "deviceType": "Smartphone",
+          "charger_id": "c1"
+        },
+        {
+          "_id": "d2",
+          "deviceName": "Samsung Galaxy S21",
+          "deviceType": "Smartphone",
+          "charger_id": "c2"
+        }
+      ]
+    },
+    {
+      "_id": "u2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "devices": [
+        {
+          "_id": "d3",
+          "deviceName": "iPad Pro",
+          "deviceType": "Tablet",
+          "charger_id": "c1"
+        }
+      ]
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "c1",
+      "chargerType": "USB-C",
+      "voltage": "20W"
+    },
+    {
+      "_id": "c2",
+      "chargerType": "Micro-USB",
+      "voltage": "10W"
+    }
+  ]
+}
